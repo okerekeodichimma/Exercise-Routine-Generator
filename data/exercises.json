@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Push-ups",
+      "muscle_group": ["chest", "arms", "core"],
+      "equipment": "bodyweight",
+      "difficulty": "beginner",
+      "demo": "pushups.mp4"
+    },
+    {
+      "name": "Squats",
+      "muscle_group": ["legs", "core"],
+      "equipment": "bodyweight",
+      "difficulty": "beginner",
+      "demo": "squats.mp4"
+    },
+    {
+      "name": "Barbell Deadlift",
+      "muscle_group": ["back", "legs"],
+      "equipment": "barbell",
+      "difficulty": "intermediate",
+      "demo": "deadlift.mp4"
+    }
+  ]
