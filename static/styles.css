@@ -71,9 +71,9 @@ body {
     background-color: #f3e5f5;
   }
   
-  img {
+  video {
     margin-top: 5px;
-    width: 80px;
+    width: 200px;
     height: auto;
     border-radius: 8px;
   }
