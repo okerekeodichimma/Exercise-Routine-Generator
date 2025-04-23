@@ -33,3 +33,9 @@ Build a workout plan based on fitness goals
 7. Include warm-up and cool-down routines
 8. Create visual exercise demonstrations
 9. Test across fitness levels and goal combinations
+
+## Group members (group 23)
+1. Okereke Odichimma Joy VUG/SEN/22/7339
+2. Ndu Samuel Kelechi VUG/SEN/22/6916
+3. Abdul Muhammad Bello VUG/SEN/22/8355
+

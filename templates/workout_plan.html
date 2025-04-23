@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Workout Plan</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Your Weekly Workout Plan</h1>
+
+    {% for day, details in plan.items() %}
+    <h2>{{ day }}</h2>
+    <div>
+        <h3>Warm-up</h3>
+        <ul>
+            {% for warm in details.warm_up %}
+            <li>{{ warm }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Main Exercises</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Exercise</th>
+                    <th>Sets</th>
+                    <th>Reps</th>
+                    <th>Demo</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ex in details.exercises %}
+                <tr>
+                    <td>{{ ex.name }}</td>
+                    <td>{{ ex.sets }}</td>
+                    <td>{{ ex.reps }}</td>
+                    <td>
+                      <video controls loop src= "static/exercises/{{ ex.demo }}" type="video/mp4" width="200"></video>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h3>Cool-down</h3>
+        <ul>
+            {% for cool in details.cool_down %}
+            <li>{{ cool }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <hr>
+    {% endfor %}
+</body>
+</html>
